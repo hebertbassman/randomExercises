@@ -13,7 +13,7 @@ public class Exercicio02 {
 		System.out.print("Salário Bruto: ");
 		double salarioBruto = sc.nextDouble();
 		if (salarioBruto < 0) {
-			System.out.println("Valor inválido!");
+			System.out.println("Valor Inválido!");
 			System.out.println();
 			main(null);
 		}
