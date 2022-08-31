@@ -1,6 +1,11 @@
+/* Um algoritmo que calcula a quantidade de litros de combustível gastos por um veículo que 
+consome 1 litro a cada 12 km, no final o programa imprime na tela o tempo gasto na viagem 
+e a velocidade média informados pelo usuário, bem como quantos km foram percorridos e quantos 
+litros de combustível o veículo consumiu no trajeto. */
+
 import java.util.Scanner;
 
-public class Exercicios01 {
+public class Exercicio01 {
 
 	public static void main(String[] args) {
 
