@@ -14,7 +14,7 @@ public class algoritmo {
 		
 		double salario_atualizado = salario + (salario * 0.25);
 		
-		System.out.printf("%.2f", salario_atualizado);
+		System.out.printf("O salário atualizado é R$ %.2f", salario_atualizado);
 		
 		sc.close();
 		
