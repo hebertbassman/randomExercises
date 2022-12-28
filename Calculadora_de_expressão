@@ -1,0 +1,28 @@
+/* Um algoritmo que lê três números inteiros positivos (A, B, C) e calcula a seguinte expressão: 
+   D = R + S / 2 , onde R = (A + B)² e S = (B + C)² */
+
+import java.util.Scanner;
+
+public class algoritmo {
+
+	public static void main(String[] args) {
+				
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite três números (A, B, C):");
+		
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+		int C = sc.nextInt();
+		int R, S, D;
+		
+		R = (A + B) * (A + B);
+		S = (B + C) * (B + C);
+		D = (R + S) / 2;
+		
+		System.out.println("O resultado da expressão é " + D + ".");
+		
+		sc.close();
+		
+	}
+}
