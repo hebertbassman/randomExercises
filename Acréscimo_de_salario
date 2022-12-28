@@ -1,0 +1,22 @@
+/* Um programa que lê o valor do salário atual de um funcionário e informa
+ *  o seu novo salário acrescido de 25% */
+
+import java.util.Scanner;
+
+public class algoritmo {
+
+	public static void main(String[] args) {
+					
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o salário atual:");
+		double salario = sc.nextDouble(); 
+		
+		double salario_atualizado = salario + (salario * 0.25);
+		
+		System.out.printf("%.2f", salario_atualizado);
+		
+		sc.close();
+		
+	}
+}
